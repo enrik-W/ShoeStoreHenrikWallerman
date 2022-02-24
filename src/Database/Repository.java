@@ -110,7 +110,6 @@ public class Repository {
         return shoesInStock;
     }
 
-    //NOT DONE!!!!!!!!
     public List<Order> getAllShoesInCustomersOrder(int customerId) {
         String query = "SELECT * FROM shoesinorder " +
                 "INNER JOIN orders " +
